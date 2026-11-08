@@ -1,0 +1,16 @@
+[
+  {
+    "cost_center_id": "CC-IN-OPS",
+    "name": "India Operations",
+    "country": "IN",
+    "budget": 500000,
+    "spent": 499994.23
+  },
+  {
+    "cost_center_id": "CC-US-OPS",
+    "name": "US Operations",
+    "country": "US",
+    "budget": 100000,
+    "spent": 6505.73
+  }
+]

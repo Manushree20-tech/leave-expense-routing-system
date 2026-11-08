@@ -1,0 +1,56 @@
+[
+  {
+    "policy_id": "LP-01",
+    "name": "Annual",
+    "annual_entitlement": 18,
+    "country": "IN",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "policy_id": "LP-02",
+    "name": "Casual",
+    "annual_entitlement": 12,
+    "country": "IN",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "policy_id": "LP-03",
+    "name": "Sick",
+    "annual_entitlement": 10,
+    "country": "IN",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "policy_id": "LP-04",
+    "name": "Personal",
+    "annual_entitlement": 5,
+    "country": "IN",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "policy_id": "LP-05",
+    "name": "Annual US",
+    "annual_entitlement": 15,
+    "country": "US",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "policy_id": "LP-06",
+    "name": "Sick US",
+    "annual_entitlement": 10,
+    "country": "US",
+    "accrual_method": "MONTHLY",
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  }
+]

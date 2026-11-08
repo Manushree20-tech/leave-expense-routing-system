@@ -1,0 +1,20 @@
+{% extends 'base.html' %}{% block content %}<h1>Welcome, {{e.name}}</h1>
+<p>{{e.id}} · {{e.role}} · {{e.country}}</p>
+<div class="grid">
+    <section class="panel">
+        <h2>Leave balances</h2>{% for b in balances %}<p>{{b.policy_id}} · Available {{b.available}} days (accrued
+            {{b.accrued}}, used {{b.used}})</p>{% else %}<p>No balances available.</p>{% endfor %}
+    </section>
+    <section class="panel">
+        <h2>Your leave requests</h2>{% for x in leaves %}<p>{{x.id}} · {{x.start_date}} to {{x.end_date}} · {{x.status}}
+        </p>{% else %}<p>No requests yet.</p>{% endfor %}
+    </section>
+    <section class="panel">
+        <h2>Your expense claims</h2>{% for x in claims %}<p>{{x.id}} · {{x.total_amount}} {{x.currency}} · {{x.status}}
+        </p>{% else %}<p>No claims yet.</p>{% endfor %}
+    </section>
+    <section class="panel">
+        <h2>Pending approvals</h2>
+        <p>{{pending|length}} pending</p><a href="/approvals">Review approvals</a>
+    </section>
+</div>{% endblock %}

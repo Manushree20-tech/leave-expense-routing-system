@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Audit History</h1>
+    <p>Complete history of actions and state changes recorded in the system.</p>
+
+    <p><strong>Total recorded events:</strong> {{ rows|length }}</p>
+
+    {% if rows %}
+    <div style="width:100%; overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; margin-top:20px;">
+            <thead>
+                <tr>
+                    <th>Event ID</th>
+                    <th>Entity Type</th>
+                    <th>Entity ID</th>
+                    <th>Previous State</th>
+                    <th>New State</th>
+                    <th>Actor ID</th>
+                    <th>Reason</th>
+                    <th>Date & Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in rows %}
+                <tr>
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.entity_type }}</td>
+                    <td>{{ item.entity_id }}</td>
+                    <td>{{ item.from_state or '-' }}</td>
+                    <td>{{ item.to_state or '-' }}</td>
+                    <td>{{ item.actor_id }}</td>
+                    <td>{{ item.reason or '-' }}</td>
+                    <td>{{ item.occurred_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+        <p>No audit events recorded yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

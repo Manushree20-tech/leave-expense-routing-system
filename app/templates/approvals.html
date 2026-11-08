@@ -1,0 +1,7 @@
+{% extends 'base.html' %}{% block content %}<h1>My pending approvals</h1>{% for s in steps %}<section class="panel">
+    <b>{{s.request_type}} · {{s.request_id}}</b>
+    <p>Approval level {{s.sequence}}</p>
+    <form method="post" action="/decision/{{s.id}}"><input name="reason" placeholder="Decision reason" required><button
+            name="decision" value="APPROVED">Approve</button><button class="danger" name="decision"
+            value="REJECTED">Reject</button></form>
+</section>{% else %}<p>No pending approvals.</p>{% endfor %}{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}{% block content %}<h1>Submit leave request</h1>
+<section class="panel">
+    <form method="post"><label>Leave policy</label><select name="policy_id">{% for p in policies %}<option
+                value="{{p.id}}">{{p.name}} ({{p.annual_entitlement}} days/year)</option>{% endfor
+            %}</select><label>Start date</label><input type="date" name="start_date" required><label>End
+            date</label><input type="date" name="end_date" required><label>Reason</label><textarea
+            name="reason"></textarea><button>Submit leave</button></form>
+</section>{% endblock %}

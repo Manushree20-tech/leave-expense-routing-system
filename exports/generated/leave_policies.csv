@@ -1,0 +1,7 @@
+policy_id,name,annual_entitlement,country,accrual_method,effective_from,effective_to
+LP-01,Annual,18,IN,MONTHLY,2026-01-01,
+LP-02,Casual,12,IN,MONTHLY,2026-01-01,
+LP-03,Sick,10,IN,MONTHLY,2026-01-01,
+LP-04,Personal,5,IN,MONTHLY,2026-01-01,
+LP-05,Annual US,15,US,MONTHLY,2026-01-01,
+LP-06,Sick US,10,US,MONTHLY,2026-01-01,

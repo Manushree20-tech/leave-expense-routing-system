@@ -1,0 +1,14 @@
+[
+  {
+    "cost_center_id": "CC-IN-OPS",
+    "period_start": "2026-01-01",
+    "period_end": "2026-12-31",
+    "budget_amount": 500000
+  },
+  {
+    "cost_center_id": "CC-US-OPS",
+    "period_start": "2026-01-01",
+    "period_end": "2026-12-31",
+    "budget_amount": 100000
+  }
+]

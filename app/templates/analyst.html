@@ -1,0 +1,7 @@
+{% extends 'base.html' %}{% block content %}<h1>Operations metrics</h1>
+<div class="grid">{% for label,value in [('Employees',employees),('Leave requests',leaves),('Expense
+    claims',claims),('Approved claims',approved),('Rejected claims',rejected),('Expense approval rate
+    (%)',approval_rate),('Reimbursements created',reimb),('Reimbursement value',reimbursed_amount),('Recorded
+    exceptions',exceptions),('Audit events',events)] %}<section class="panel">
+        <h2>{{value}}</h2>{{label}}
+    </section>{% endfor %}</div>{% endblock %}

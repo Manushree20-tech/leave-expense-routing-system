@@ -1,0 +1,37 @@
+[
+  {
+    "country": "IN",
+    "holiday_date": "2026-01-01",
+    "name": "New Year"
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-08-15",
+    "name": "Independence Day"
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-10-02",
+    "name": "Gandhi Jayanti"
+  },
+  {
+    "country": "IN",
+    "holiday_date": "2026-12-25",
+    "name": "Christmas"
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-01-01",
+    "name": "New Year"
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-07-04",
+    "name": "Independence Day"
+  },
+  {
+    "country": "US",
+    "holiday_date": "2026-12-25",
+    "name": "Christmas"
+  }
+]

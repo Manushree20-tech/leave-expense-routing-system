@@ -1,0 +1,11 @@
+case_id,issue_type,entity_type,entity_id,expected_decision,description
+GT-001,NEGATIVE_LEAVE_BALANCE,LeaveBalance,LB-EMP-000001-LP-01,FLAG_NEGATIVE_BALANCE,Available balance is negative after usage.
+GT-002,OVERLAPPING_APPROVED_LEAVE,LeaveRequest,LVE-2026-000001,FLAG_OVERLAP,Two approved requests for one employee overlap in date range.
+GT-002B,OVERLAPPING_APPROVED_LEAVE,LeaveRequest,LVE-2026-000002,FLAG_OVERLAP,Second member of the deliberately overlapping approved-leave pair.
+GT-003,EXPENSE_OUTSIDE_EMPLOYMENT,ExpenseClaim,EXP-2026-000001,REJECT_OR_FLAG,Expense date predates employee hire date.
+GT-004,SPLIT_CLAIMS_THRESHOLD_EVASION,ExpenseClaim,EXP-2026-000002,FLAG_SPLIT_PATTERN,Two related claims total 9800 and are split below a 5000 threshold.
+GT-005,MISSING_COST_CENTER,ExpenseClaim,EXP-2026-000004,FLAG_MISSING_COST_CENTER,Claim has no cost-center assignment.
+GT-006,REQUESTER_SELF_APPROVAL,ApprovalStep,APR-SELF-APPROVAL-01,BLOCK_SELF_APPROVAL,Requester is deliberately assigned as approver.
+GT-007,DUPLICATE_REIMBURSEMENT,Reimbursement,RMB-2026-000581,FLAG_DUPLICATE_REIMBURSEMENT,A second reimbursement references the same claim.
+GT-008,DUPLICATE_RECEIPT_HASH,ExpenseLine,EXPL-EXP-2026-000002-02,FLAG_DUPLICATE_RECEIPT,Two line items intentionally share one receipt content hash.
+GT-009,POLICY_LIMIT_BREACH,ExpenseLine,EXPL-EXP-2026-000006-01,REJECT_POLICY_LIMIT,Expense line exceeds the configured country/category per-item policy limit.

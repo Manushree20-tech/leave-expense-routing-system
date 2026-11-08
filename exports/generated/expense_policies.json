@@ -1,0 +1,102 @@
+[
+  {
+    "expense_policy_id": "EP-IN-TRAVEL",
+    "country": "IN",
+    "category": "TRAVEL",
+    "per_item_limit": 2500,
+    "claim_limit": 10000,
+    "receipt_required_above": 500,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-IN-MEALS",
+    "country": "IN",
+    "category": "MEALS",
+    "per_item_limit": 2500,
+    "claim_limit": 10000,
+    "receipt_required_above": 500,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-IN-LODGING",
+    "country": "IN",
+    "category": "LODGING",
+    "per_item_limit": 2500,
+    "claim_limit": 10000,
+    "receipt_required_above": 500,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-IN-EQUIPMENT",
+    "country": "IN",
+    "category": "EQUIPMENT",
+    "per_item_limit": 2500,
+    "claim_limit": 10000,
+    "receipt_required_above": 500,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-IN-OTHER",
+    "country": "IN",
+    "category": "OTHER",
+    "per_item_limit": 2500,
+    "claim_limit": 10000,
+    "receipt_required_above": 500,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-US-TRAVEL",
+    "country": "US",
+    "category": "TRAVEL",
+    "per_item_limit": 100,
+    "claim_limit": 1000,
+    "receipt_required_above": 25,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-US-MEALS",
+    "country": "US",
+    "category": "MEALS",
+    "per_item_limit": 100,
+    "claim_limit": 1000,
+    "receipt_required_above": 25,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-US-LODGING",
+    "country": "US",
+    "category": "LODGING",
+    "per_item_limit": 100,
+    "claim_limit": 1000,
+    "receipt_required_above": 25,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-US-EQUIPMENT",
+    "country": "US",
+    "category": "EQUIPMENT",
+    "per_item_limit": 100,
+    "claim_limit": 1000,
+    "receipt_required_above": 25,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  },
+  {
+    "expense_policy_id": "EP-US-OTHER",
+    "country": "US",
+    "category": "OTHER",
+    "per_item_limit": 100,
+    "claim_limit": 1000,
+    "receipt_required_above": 25,
+    "effective_from": "2026-01-01",
+    "effective_to": ""
+  }
+]

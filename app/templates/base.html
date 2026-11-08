@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leave & Expense Routing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <b>Leave & Expense Routing</b>
+
+        {% if session.get('employee_id') %}
+        <nav>
+            <a href="{{ url_for('main.dashboard') }}">Dashboard</a>
+            <a href="{{ url_for('main.leave') }}">Leave</a>
+            <a href="{{ url_for('main.expense') }}">Expense</a>
+            <a href="{{ url_for('main.approvals') }}">Approvals</a>
+            <a href="{{ url_for('main.reimbursements') }}">Reimbursements</a>
+            <a href="{{ url_for('main.analyst') }}">Analytics</a>
+            <a href="{{ url_for('main.audit') }}">Audit History</a>
+            <a href="{{ url_for('main.exceptions') }}">Exceptions</a>
+            <a href="{{ url_for('main.logout') }}">Logout</a>
+        </nav>
+        {% endif %}
+    </header>
+
+    <main>
+        {% with messages = get_flashed_messages() %}
+            {% for m in messages %}
+                <p class="flash">{{ m }}</p>
+            {% endfor %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

@@ -1,0 +1,3 @@
+cost_center_id,period_start,period_end,budget_amount
+CC-IN-OPS,2026-01-01,2026-12-31,500000
+CC-US-OPS,2026-01-01,2026-12-31,100000

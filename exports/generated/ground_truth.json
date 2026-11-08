@@ -1,0 +1,82 @@
+[
+  {
+    "case_id": "GT-001",
+    "issue_type": "NEGATIVE_LEAVE_BALANCE",
+    "entity_type": "LeaveBalance",
+    "entity_id": "LB-EMP-000001-LP-01",
+    "expected_decision": "FLAG_NEGATIVE_BALANCE",
+    "description": "Available balance is negative after usage."
+  },
+  {
+    "case_id": "GT-002",
+    "issue_type": "OVERLAPPING_APPROVED_LEAVE",
+    "entity_type": "LeaveRequest",
+    "entity_id": "LVE-2026-000001",
+    "expected_decision": "FLAG_OVERLAP",
+    "description": "Two approved requests for one employee overlap in date range."
+  },
+  {
+    "case_id": "GT-002B",
+    "issue_type": "OVERLAPPING_APPROVED_LEAVE",
+    "entity_type": "LeaveRequest",
+    "entity_id": "LVE-2026-000002",
+    "expected_decision": "FLAG_OVERLAP",
+    "description": "Second member of the deliberately overlapping approved-leave pair."
+  },
+  {
+    "case_id": "GT-003",
+    "issue_type": "EXPENSE_OUTSIDE_EMPLOYMENT",
+    "entity_type": "ExpenseClaim",
+    "entity_id": "EXP-2026-000001",
+    "expected_decision": "REJECT_OR_FLAG",
+    "description": "Expense date predates employee hire date."
+  },
+  {
+    "case_id": "GT-004",
+    "issue_type": "SPLIT_CLAIMS_THRESHOLD_EVASION",
+    "entity_type": "ExpenseClaim",
+    "entity_id": "EXP-2026-000002",
+    "expected_decision": "FLAG_SPLIT_PATTERN",
+    "description": "Two related claims total 9800 and are split below a 5000 threshold."
+  },
+  {
+    "case_id": "GT-005",
+    "issue_type": "MISSING_COST_CENTER",
+    "entity_type": "ExpenseClaim",
+    "entity_id": "EXP-2026-000004",
+    "expected_decision": "FLAG_MISSING_COST_CENTER",
+    "description": "Claim has no cost-center assignment."
+  },
+  {
+    "case_id": "GT-006",
+    "issue_type": "REQUESTER_SELF_APPROVAL",
+    "entity_type": "ApprovalStep",
+    "entity_id": "APR-SELF-APPROVAL-01",
+    "expected_decision": "BLOCK_SELF_APPROVAL",
+    "description": "Requester is deliberately assigned as approver."
+  },
+  {
+    "case_id": "GT-007",
+    "issue_type": "DUPLICATE_REIMBURSEMENT",
+    "entity_type": "Reimbursement",
+    "entity_id": "RMB-2026-000581",
+    "expected_decision": "FLAG_DUPLICATE_REIMBURSEMENT",
+    "description": "A second reimbursement references the same claim."
+  },
+  {
+    "case_id": "GT-008",
+    "issue_type": "DUPLICATE_RECEIPT_HASH",
+    "entity_type": "ExpenseLine",
+    "entity_id": "EXPL-EXP-2026-000002-02",
+    "expected_decision": "FLAG_DUPLICATE_RECEIPT",
+    "description": "Two line items intentionally share one receipt content hash."
+  },
+  {
+    "case_id": "GT-009",
+    "issue_type": "POLICY_LIMIT_BREACH",
+    "entity_type": "ExpenseLine",
+    "entity_id": "EXPL-EXP-2026-000006-01",
+    "expected_decision": "REJECT_POLICY_LIMIT",
+    "description": "Expense line exceeds the configured country/category per-item policy limit."
+  }
+]

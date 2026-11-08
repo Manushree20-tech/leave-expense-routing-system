@@ -1,0 +1,20 @@
+{
+  "seed": 20261022,
+  "counts": {
+    "employees": 400,
+    "leave_policies": 6,
+    "leave_balances": 1440,
+    "leave_requests": 800,
+    "expense_policies": 10,
+    "cost_centers": 2,
+    "budget_periods": 2,
+    "employee_policies": 1440,
+    "approval_rules": 22,
+    "holidays": 7,
+    "expense_claims": 1000,
+    "expense_lines": 5498,
+    "reimbursements": 575,
+    "approval_steps": 1790
+  },
+  "ground_truth_cases": 10
+}

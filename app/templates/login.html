@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel">
+    <h1>Sign in</h1>
+
+    <p>Use one of the seeded demo email addresses listed in README.</p>
+
+    <form method="POST">
+        <label for="email">Demo email</label>
+
+        <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="mira@example.test"
+            required
+        >
+
+        <button type="submit">Continue</button>
+    </form>
+</section>
+{% endblock %}

@@ -1,0 +1,4 @@
+{% extends 'base.html' %}{% block content %}<h1>Recorded exceptions</h1>{% for r in rows %}<section class="panel">
+    <b>{{r.entity_id}}</b>
+    <p>{{r.reason}}</p><small>{{r.occurred_at}}</small>
+</section>{% else %}<p>No exceptions have been recorded.</p>{% endfor %}{% endblock %}

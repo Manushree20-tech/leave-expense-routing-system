@@ -1,0 +1,170 @@
+{
+  "seed": 20261022,
+  "files": [
+    {
+      "file": "approval_rules.csv",
+      "sha256": "4b8dc7a7ccacce72a7fb0a713d8cccdc1e97cb274db7af789a51f4c5aaea7ec0",
+      "bytes": 1771
+    },
+    {
+      "file": "approval_rules.json",
+      "sha256": "8e6692796e4a99eca8ca4aefa5506eaaf676f5b80ed2f1914ed0c96e53db2edf",
+      "bytes": 6881
+    },
+    {
+      "file": "approval_steps.csv",
+      "sha256": "f69dc41928a6d6b68866dbd003ca97f5b68e7938ffd8594e62bb4b5bf88acf3a",
+      "bytes": 123771
+    },
+    {
+      "file": "approval_steps.json",
+      "sha256": "21bd3cdc26448ea9e5d6d9d5c49d1b94f694e2036924994e091ad3b6cdd76cdc",
+      "bytes": 363563
+    },
+    {
+      "file": "budget_periods.csv",
+      "sha256": "9297e3a8db27000d4c5777fe4367827e3e5d8502cb7291f4667f2f5e490e1ab0",
+      "bytes": 134
+    },
+    {
+      "file": "budget_periods.json",
+      "sha256": "dd4ee973994377b8fd9a9f9b766ee7f4f04192e018e25b446c70863d0f368766",
+      "bytes": 278
+    },
+    {
+      "file": "cost_centers.csv",
+      "sha256": "0f5fee334c8a8b14e1ec83ae42d06b12aa9592c6c3ddfb17651361523b7ebd8c",
+      "bytes": 133
+    },
+    {
+      "file": "cost_centers.json",
+      "sha256": "1f7ba3a7bab065a378f5ee35ccd17871627ae23402c723754dca101b9312f72d",
+      "bytes": 281
+    },
+    {
+      "file": "employee_policies.csv",
+      "sha256": "73a7d5dd2d0b9177ef5147939d87b5ff9833a4313fe57792dc04ce72505abde6",
+      "bytes": 43251
+    },
+    {
+      "file": "employee_policies.json",
+      "sha256": "553827a99985e62c59bd518f86491bb82a694657a2b7b673d8263c0e344ec783",
+      "bytes": 182882
+    },
+    {
+      "file": "employees.csv",
+      "sha256": "25d2a5b335a7694e295109e0cc6e7823c91cdc686513acdd9bce20ca5af08900",
+      "bytes": 40168
+    },
+    {
+      "file": "employees.json",
+      "sha256": "213eae9cc13822bea9ab294436aa7235de94031af4b870d5f73770ac3c9e46f7",
+      "bytes": 118879
+    },
+    {
+      "file": "expense_claims.csv",
+      "sha256": "b3d0c65557ff579e0f8e2fd3f587b559a0c596879a61fe2eb07ec1f535397f28",
+      "bytes": 79692
+    },
+    {
+      "file": "expense_claims.json",
+      "sha256": "633e77a3c0ffad954d5ba2103772ff6e46ebb0c1518f81df74394c15637de7e8",
+      "bytes": 279590
+    },
+    {
+      "file": "expense_lines.csv",
+      "sha256": "b96c37634cc3a7857db7e599e226954b8893e049bcde625c81bbaf14c394283a",
+      "bytes": 857256
+    },
+    {
+      "file": "expense_lines.json",
+      "sha256": "62fc19c47c11bc6c60dd0bc1b058ab1a9e855a7bd2e7a3cf54472f848b38665f",
+      "bytes": 2105179
+    },
+    {
+      "file": "expense_policies.csv",
+      "sha256": "f9f0f41d8a85620b46da6b6f986d6bd05fface6b0e8647f23cb38790358cb2bd",
+      "bytes": 617
+    },
+    {
+      "file": "expense_policies.json",
+      "sha256": "f53b78bfe943c730f7859841c5f7fd96151e5d4f0a023e4629ff4bf9a2cd0a3c",
+      "bytes": 2445
+    },
+    {
+      "file": "ground_truth.csv",
+      "sha256": "405169a0dea293625eaf13be238842b4c6b3228ddca48c921d1c9f2d291a84c5",
+      "bytes": 1466
+    },
+    {
+      "file": "ground_truth.json",
+      "sha256": "0ad722af2a7fc1ef8c8dce56649c6d632210352d9478e96a97c1da68d55dc496",
+      "bytes": 2776
+    },
+    {
+      "file": "holidays.csv",
+      "sha256": "6ec95bc29c7a35cfcd7a0da8d495f2a6c8401deb592dacd5920337188a245170",
+      "bytes": 219
+    },
+    {
+      "file": "holidays.json",
+      "sha256": "1486573f73c1701af6d91609b0619a6a640912182c9de64344f99595a25c1d0a",
+      "bytes": 635
+    },
+    {
+      "file": "leave_balances.csv",
+      "sha256": "2df23ced1b7a62094f222b3a1b1ae0247fa8ddfa3678ff64d9835071ad86ae15",
+      "bytes": 92797
+    },
+    {
+      "file": "leave_balances.json",
+      "sha256": "02396d64a179f31424df4a75e02fc3f51ac686406b3eff958b645d84eee99ee2",
+      "bytes": 318800
+    },
+    {
+      "file": "leave_policies.csv",
+      "sha256": "c09a7a64e8851b234da5c41bb68f92ba595ea29ab6b3fff93caa2bea9beb4180",
+      "bytes": 329
+    },
+    {
+      "file": "leave_policies.json",
+      "sha256": "25972977b01bf6914fc5c31ff12084c18a9836b5be17a95d99600483ef802753",
+      "bytes": 1205
+    },
+    {
+      "file": "leave_requests.csv",
+      "sha256": "0d3a79233858d500c17c8d6211689f68bbc81fcbefbfa63c640bb3ac34cf3fc5",
+      "bytes": 68888
+    },
+    {
+      "file": "leave_requests.json",
+      "sha256": "ecceae1a3c19df4cf9f0cdfac93a86d84415b0b0baf0d97500448faf21251d2e",
+      "bytes": 206402
+    },
+    {
+      "file": "reimbursements.csv",
+      "sha256": "e96c51545a647ca2ee2ffc5d0d637b35c7f06f7c811ee09e05e50b62e1fc1164",
+      "bytes": 34523
+    },
+    {
+      "file": "reimbursements.json",
+      "sha256": "66fd7bec828726c454332125dba7d51c5f4c6b7d6c50de331db1dccf0212bbfa",
+      "bytes": 95425
+    },
+    {
+      "file": "seed_data.sql",
+      "sha256": "eb2c0c29cb80700bcd993d9d0cd0e7d3c9f0c48506a196bb8eb328d6f07ca8b2",
+      "bytes": 3211236
+    },
+    {
+      "file": "validation_report.json",
+      "sha256": "4daea396c7df63feb517c58bf6ed9c0acb1ce483bd1b2368d9e4168e561732a6",
+      "bytes": 55
+    },
+    {
+      "file": "validation_summary.json",
+      "sha256": "213450f09af75e8b89fae11229f437a83db68831699639fc5e17b20db2fc7b9c",
+      "bytes": 432
+    }
+  ]
+}

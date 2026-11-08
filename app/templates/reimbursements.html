@@ -1,0 +1,3 @@
+{% extends 'base.html' %}{% block content %}<h1>Reimbursements</h1>{% for r in rows %}<section class="panel">{{r.id}} ·
+    {{r.claim_id}} · {{r.amount}} {{r.currency}} · {{r.status}}</section>{% else %}<p>No reimbursements yet.</p>{%
+endfor %}{% endblock %}
