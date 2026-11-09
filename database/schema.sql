@@ -1,9 +1,9 @@
 -- Complete MySQL 8+ schema for Leave and Expense Routing System
 
-CREATE DATABASE IF NOT EXISTS leave_expense_routing
+CREATE DATABASE IF NOT EXISTS leave_expense_full_dataset
 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-USE leave_expense_routing;
+USE leave_expense_full_dataset;
 
 CREATE TABLE IF NOT EXISTS employee (
  id VARCHAR(20) PRIMARY KEY,
